@@ -1,6 +1,5 @@
 
 from typing import Optional
-
 from fastapi import FastAPI, Header
 
 app = FastAPI()
