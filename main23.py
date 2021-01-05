@@ -1,4 +1,3 @@
-'''
 from typing import List, Optional
 
 from fastapi import FastAPI
@@ -38,3 +37,4 @@ class UserIn(BaseModel):
 @app.post("/user/", response_model=UserIn)
 async def create_user(user: UserIn):
     return user
+'''
