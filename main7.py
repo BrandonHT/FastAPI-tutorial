@@ -1,5 +1,6 @@
 # We can also have multiple query parameters.
 # Each parameter must be between {} and should be specified in the URL.
+
 from typing import Optional
 
 from fastapi import FastAPI
