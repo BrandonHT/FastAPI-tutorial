@@ -1,4 +1,4 @@
-#Defininf exception handlers
+#Defining exception handler
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 
