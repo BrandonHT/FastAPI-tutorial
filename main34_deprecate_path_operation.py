@@ -14,6 +14,6 @@ async def read_users():
     return [{"username": "johndoe"}]
 
 
-@app.get("/elements/", tags=["items"], deprecated=True)
+@app.get("/elements/", tags=["items"], deprecated=True, description="this is actually deprecated")
 async def read_elements():
     return [{"item_id": "Foo"}]
